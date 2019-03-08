@@ -10,12 +10,6 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 
 .second, .fourth {
   font-family: 'Abril Fatface', serif;
@@ -27,24 +21,24 @@ html {
 
 }
 
-@media screen and (min-width: 0px) and (max-width: 607px) {
+@media screen and (min-width: 0px){
   body{
 
   }
 }
-@media screen and (min-width: 608px) and (max-width: 959px) {
+@media screen and (min-width: 608px){
   body{
     background-color: green;
     color: white;
   }
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 960px){
   body{
     color: yellow;
     background: repeating-linear-gradient(
       to right,
       #000000,
-      #000000 15px,
-      #454545 20px
+      #000000 1em,
+      #454545 1em
       );
     }
