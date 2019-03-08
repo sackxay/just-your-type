@@ -28,17 +28,23 @@ html {
 }
 @media screen and (min-width: 608px){
   body{
-    background-color: green;
-    color: white;
+    color: #fff;
+    background: linear-gradient(
+      to bottom,
+      #5d9634,
+      #5d9634 50%,
+      #538c2b 50%,
+      #538c2b
+    );
+    /* The rectangle in which to repeat.
+       It can be fully wide in this case */
+    background-size: 100% 20px;
+    }
   }
-}
+
 @media screen and (min-width: 960px){
   body{
-    color: yellow;
-    background: repeating-linear-gradient(
-      to right,
-      #000000,
-      #000000 1em,
-      #454545 1em
-      );
-    }
+color: yellow;
+background: #000000;
+}
+}
