@@ -6,6 +6,8 @@ html {
   font-family: "Abril Fatface", serif;
 }
 
+
+
 @media screen and (min-width: 38em) {
 
   body {
@@ -18,8 +20,13 @@ html {
 @media screen and (min-width: 60em) {
 
   body {
-    color: yellow;
+    color: green;
     background: #000;
+  }
+
+  p {
+    position: fixed; top: 0px; right: 0px;
+    background-color: white;
   }
 
 }
@@ -27,8 +34,13 @@ html {
 @media screen and (min-width: 65em) {
 
   body {
-    color: white;
-    background: red;
+    color: yellow;
+    background: #000;
+  }
+
+  p {
+    position: fixed; top: 200px; right: 0px;
+    background-color: cyan;
   }
 
 }
@@ -36,8 +48,13 @@ html {
 @media screen and (min-width: 70em) {
 
   body {
-    color: yellow;
-    background: #000;
+    color: white;
+    background: red;
+  }
+
+  p {
+    position: fixed; top: 350px; right: 0px;
+    background-color: magenta;
   }
 
 }
@@ -45,8 +62,13 @@ html {
 @media screen and (min-width: 75em) {
 
   body {
-    color: white;
-    background: red;
+    color: yellow;
+    background: #000;
+  }
+
+  p {
+    position: fixed; top: 500px; right: 0px;
+    background-color: pink;
   }
 
 }
@@ -54,8 +76,13 @@ html {
 @media screen and (min-width: 80em) {
 
   body {
-    color: yellow;
-    background: #000;
+    color: #fff;
+    background: red;
+  }
+
+  p {
+    position: fixed; top: 650px; right: 0px;
+    background-color: blue;
   }
 
 }
@@ -63,8 +90,13 @@ html {
 @media screen and (min-width: 85em) {
 
   body {
-    color: #fff;
-    background: red;
+    color: #000;
+    background: green;
+  }
+
+  p {
+    position: fixed; top: 250px; right: 0px;
+    background-color: white;
   }
 
 }
@@ -72,8 +104,13 @@ html {
 @media screen and (min-width: 90em) {
 
   body {
-    color: yellow;
-    background: #000;
+    color: green;
+    background: white;
+  }
+
+  p {
+    position: fixed; top: 250px; right: 0px;
+    background-color: white;
   }
 
 }
