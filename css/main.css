@@ -1,50 +1,31 @@
 html {
-  font-family: 'Montserrat', sans-serif;
-  box-sizing: border-box;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
+  font-family: Montserrat, sans-serif;
 }
 
 .second, .fourth {
-  font-family: 'Abril Fatface', serif;
+  font-family: "Abril Fatface", serif;
 }
 
-.rectangle{
-  width:200px;
-  height:100px;
-
-}
-
-@media screen and (min-width: 0px){
-  body{
-
-  }
-}
-@media screen and (min-width: 608px){
-  body{
+@media screen and (min-width: 608px) {
+  body {
     color: #fff;
-    background: linear-gradient(
-      to bottom,
-      #5d9634,
-      #5d9634 50%,
-      #538c2b 50%,
-      #538c2b
-    );
-    /* The rectangle in which to repeat.
-       It can be fully wide in this case */
-    background-size: 100% 20px;
-    }
+    background:
+      linear-gradient(
+        to bottom,
+        #5d9634,
+        #5d9634 50%,
+        #538c2b 50%,
+        #538c2b
+      );
+    background-size: 100% 3em;
   }
 
-@media screen and (min-width: 960px){
-  body{
-color: yellow;
-background: #000000;
 }
+
+@media screen and (min-width: 960px) {
+  body {
+    color: yellow;
+    background: #000;
+  }
+
 }

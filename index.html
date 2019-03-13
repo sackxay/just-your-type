@@ -9,38 +9,37 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat:400,800i" rel="stylesheet">
-  <style>
-       .animated {
-
-          padding-top:95px;
-          margin-bottom:60px;
-          -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-          -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-       }
-
-       @-webkit-keyframes bounce {
-          0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
-          40% {-webkit-transform: translateY(-30px);}
-          60% {-webkit-transform: translateY(-15px);}
-       }
-
-       @keyframes bounce {
-          0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-          40% {transform: translateY(-30px);}
-          60% {transform: translateY(-15px);}
-       }
-
-       .bounce {
-          -webkit-animation-name: bounce;
-          animation-name: bounce;
-       }
-    </style>
  </head>
 
  <body>
+   <div>
+        .animated {
 
+           padding-top:95px;
+           margin-bottom:60px;
+           -webkit-animation-duration: 1s;
+           animation-duration: 1s;
+           -webkit-animation-fill-mode: both;
+           animation-fill-mode: both;
+        }
+
+        @-webkit-keyframes bounce {
+           0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+           40% {-webkit-transform: translateY(-30px);}
+           60% {-webkit-transform: translateY(-15px);}
+        }
+
+        @keyframes bounce {
+           0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+           40% {transform: translateY(-30px);}
+           60% {transform: translateY(-15px);}
+        }
+
+        .bounce {
+           -webkit-animation-name: bounce;
+           animation-name: bounce;
+        }
+     </div>
     <div id = "animated-example" class = "animated bounce"></div>
 
     <script>
@@ -49,10 +48,10 @@
        }
     </script>
 
-  <div class="grid center-content height-win-half">
+      <div class="grid center-content height-win-half">
 
     <h1 class="unit center-text first xs-1 m-0 l-0">I'm out for</h1>
-    <h1 class="unit center-text first xs-0 m-1 l-0 text-upper">I'm out for</h1>
+    <h2 class="unit exa center-text first xs-0 m-1 l-0 text-upper">I'm out for</h2>
     <p class="unit center-text second giga xs-1 m-0 l-0"><strong>Presidents</strong></p>
     <p class="unit center-text fourth tera xs-0 m-1 l-0">$ DEAD PRESIDENTS $</p>
     <p class="unit center-text third xs-1 l-0 m-0">to represent me</p>
@@ -60,7 +59,6 @@
     <p class="unit animated bounce fifth xs-0 m-0 l-1 nina center-text">$ $ $ $ $</p>
 
 
-</div>
   </div>
   </body>
   </html>
