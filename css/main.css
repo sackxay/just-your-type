@@ -1,5 +1,6 @@
 html {
   font-family: Montserrat, sans-serif;
+  color: red;
 }
 
 .second, .fourth, .fifth {
@@ -9,8 +10,8 @@ html {
 @media screen and (min-width: 38em) {
 
   body {
-    color: #fff;
-    background: green;
+    color: #000;
+    background: cyan;
   }
 
 }
