@@ -6,23 +6,17 @@ html {
   font-family: "Abril Fatface", serif;
 }
 
-@media screen and (min-width: 608px) {
+@media screen and (min-width: 38em) {
+
   body {
     color: #fff;
-    background:
-      linear-gradient(
-        to bottom,
-        #5d9634,
-        #5d9634 50%,
-        #538c2b 50%,
-        #538c2b
-      );
-    background-size: 100% 3em;
+    background: green;
   }
 
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 60em) {
+
   body {
     color: yellow;
     background: #000;
