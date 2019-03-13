@@ -9,46 +9,21 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat:400,800i" rel="stylesheet">
- </head>
+</head>
 
- <body>
-   <div>
-        .animated {
+<body>
+  <div>
+    .animated { padding-top:95px; margin-bottom:60px; -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; } @-webkit-keyframes bounce { 0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 40% {-webkit-transform: translateY(-30px);} 60% {-webkit-transform: translateY(-15px);} } @keyframes bounce { 0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 40% {transform: translateY(-30px);} 60% {transform: translateY(-15px);} } .bounce { -webkit-animation-name: bounce; animation-name: bounce; }
+  </div>
+  <div id="animated-example" class="animated bounce"></div>
 
-           padding-top:95px;
-           margin-bottom:60px;
-           -webkit-animation-duration: 1s;
-           animation-duration: 1s;
-           -webkit-animation-fill-mode: both;
-           animation-fill-mode: both;
-        }
+  <script>
+    function myFunction() {
+      location.reload();
+    }
+  </script>
 
-        @-webkit-keyframes bounce {
-           0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
-           40% {-webkit-transform: translateY(-30px);}
-           60% {-webkit-transform: translateY(-15px);}
-        }
-
-        @keyframes bounce {
-           0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-           40% {transform: translateY(-30px);}
-           60% {transform: translateY(-15px);}
-        }
-
-        .bounce {
-           -webkit-animation-name: bounce;
-           animation-name: bounce;
-        }
-     </div>
-    <div id = "animated-example" class = "animated bounce"></div>
-
-    <script>
-       function myFunction() {
-          location.reload();
-       }
-    </script>
-
-      <div class="grid center-content height-win-half">
+  <div class="grid center-content height-win-half">
 
     <h1 class="unit center-text first xs-1 m-0 l-0">I'm out for</h1>
     <h2 class="unit exa center-text first xs-0 m-1 l-0 text-upper">I'm out for</h2>
@@ -58,7 +33,6 @@
     <p class="unit center-text third xs-0 m-1 l-0 text-upper mega">to represent me</p>
     <p class="unit animated bounce fifth xs-0 m-0 l-1 nina center-text">$ $ $ $ $</p>
 
-
   </div>
-  </body>
-  </html>
+</body>
+</html>
