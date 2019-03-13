@@ -6,8 +6,6 @@ html {
   font-family: "Abril Fatface", serif;
 }
 
-
-
 @media screen and (min-width: 38em) {
 
   body {
@@ -25,7 +23,7 @@ html {
   }
 
   p {
-    position: fixed; top: 0px; right: 0px;
+    position: fixed;
     background-color: white;
   }
 
@@ -39,7 +37,8 @@ html {
   }
 
   p {
-    position: fixed; top: 200px; right: 0px;
+    position: fixed;
+    top: 200px;
     background-color: cyan;
   }
 
@@ -53,7 +52,8 @@ html {
   }
 
   p {
-    position: fixed; top: 350px; right: 0px;
+    position: fixed;
+    top: 350px;
     background-color: magenta;
   }
 
@@ -67,7 +67,8 @@ html {
   }
 
   p {
-    position: fixed; top: 500px; right: 0px;
+    position: fixed;
+    top: 500px;
     background-color: pink;
   }
 
@@ -81,7 +82,8 @@ html {
   }
 
   p {
-    position: fixed; top: 650px; right: 0px;
+    position: fixed;
+    top: 650px;
     background-color: blue;
   }
 
@@ -95,7 +97,8 @@ html {
   }
 
   p {
-    position: fixed; top: 250px; right: 0px;
+    position: fixed;
+    top: 250px;
     background-color: white;
   }
 
@@ -109,7 +112,8 @@ html {
   }
 
   p {
-    position: fixed; top: 250px; right: 0px;
+    position: fixed;
+    top: 250px;
     background-color: white;
   }
 
