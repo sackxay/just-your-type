@@ -18,13 +18,18 @@ html {
 
 @media screen and (min-width: 60em) {
 
+  html {
+    font-size: 30%;
+  }
+
   body {
     color: green;
-    background: #000;
+    background: #999;
   }
 
   p {
     position: fixed;
+    top: 50px;
     background-color: white;
   }
 
@@ -32,29 +37,37 @@ html {
 
 @media screen and (min-width: 65em) {
 
+    html {
+      font-size: 60%;
+    }
+
   body {
-    color: yellow;
-    background: #000;
+    color: #EFC849;
+    background: #d45;
   }
 
   p {
     position: fixed;
-    top: 200px;
-    background-color: cyan;
+    top: 100px;
+    background-color: #4AA3DF;
   }
 
 }
 
 @media screen and (min-width: 70em) {
 
+    html {
+      font-size: 120%;
+    }
+
   body {
     color: white;
-    background: red;
+    background: #800D33;
   }
 
   p {
     position: fixed;
-    top: 350px;
+    top: 200px;
     background-color: magenta;
   }
 
@@ -62,36 +75,48 @@ html {
 
 @media screen and (min-width: 75em) {
 
+    html {
+      font-size: 155%;
+    }
+
   body {
     color: yellow;
-    background: #000;
+    background: #345;
   }
 
   p {
     position: fixed;
-    top: 500px;
-    background-color: pink;
+    top: 350px;
+    background-color: #9A2A22;
   }
 
 }
 
 @media screen and (min-width: 80em) {
 
+    html {
+      font-size: 175%;
+    }
+
   body {
     color: #fff;
-    background: red;
+    background: #623;
   }
 
   p {
     position: fixed;
-    top: 650px;
-    background-color: blue;
+    top: 500px;
+    background-color: #5E4798;
   }
 
 }
 
 @media screen and (min-width: 85em) {
 
+  html {
+    font-size: 30%;
+
+  }
   body {
     color: #000;
     background: green;
@@ -99,7 +124,7 @@ html {
 
   p {
     position: fixed;
-    top: 250px;
+    top: 350px;
     background-color: white;
   }
 
